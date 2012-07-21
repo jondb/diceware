@@ -5,7 +5,8 @@ python implementation of diceware (using os.urandom)
 
 see [diceware.com](http://world.std.com/~reinhold/diceware.html)
 
-** Note on security of os.urandom(): **
+**Note on security of os.urandom():**
+
 On many linux servers, the underlying OS random number generator is known to
 produce slightly non-random results, or so I've been told...
 
